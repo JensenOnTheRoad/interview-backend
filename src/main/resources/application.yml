@@ -1,0 +1,16 @@
+spring:
+  cache:
+    type: redis
+  datasource:
+    url: jdbc:mysql://47.122.41.214:13306/interview_test
+    password: root
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+server:
+  port: 18888
